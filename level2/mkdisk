@@ -1,0 +1,13 @@
+#mkdisk script;
+
+touch mydisk
+
+sudo mkfs mydisk 1440
+
+sudo mount -o loop mydisk /mnt
+
+(cd /mnt; mkdir a b c d a/b; touch u v w x)
+
+ls -l /mnt
+
+sudo umount /mnt

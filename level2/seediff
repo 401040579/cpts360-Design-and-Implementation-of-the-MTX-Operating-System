@@ -1,0 +1,8 @@
+sudo mount -o loop d /mnt
+ls -l /mnt/X
+diff /mnt/X/tiny /mnt/X/tiny2
+ls -l /mnt/Y
+diff /mnt/Y/bigfile /mnt/Y/bigfile2
+ls -l /mnt/Z
+diff /mnt/Z/hugefile /mnt/Z/hugefile2
+sudo umount /mnt

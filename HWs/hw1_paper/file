@@ -1,0 +1,55 @@
+enter main
+argc: ffacf2f0
+argv: ffacf7bc
+env: ffacf7d2
+a: ffacf2c0
+b: ffacf2c4
+c: ffacf2c8
+enter A
+x: ffacf2a0
+y: ffacf2a4
+d: ffacf280
+e: ffacf284
+f: ffacf288
+enter B
+x: ffacf270
+y: ffacf274
+u: ffacf24c
+v: ffacf250
+w: ffacf254
+(1)Print the stack frame link list.
+stack frame link list: address: ffacf268 data: ffacf298
+stack frame link list: address: ffacf298 data: ffacf2d8
+stack frame link list: address: ffacf2d8 data: 0
+(2)Print in HEX the address and contents of the stack from FP to the stack frame of main().
+address: ffacf268 data: ffacf298
+address: ffacf26c data: 80485da
+address: ffacf270 data: 4
+address: ffacf274 data: 5
+address: ffacf278 data: ffacf284
+address: ffacf27c data: ffacf288
+address: ffacf280 data: 4
+address: ffacf284 data: 5
+address: ffacf288 data: 6
+address: ffacf28c data: 26546000
+address: ffacf290 data: ffacf2f0
+address: ffacf294 data: f775d918
+address: ffacf298 data: ffacf2d8
+address: ffacf29c data: 8048530
+address: ffacf2a0 data: 1
+address: ffacf2a4 data: 2
+address: ffacf2a8 data: ffacf2c4
+address: ffacf2ac data: ffacf2c8
+address: ffacf2b0 data: 4
+address: ffacf2b4 data: 1
+address: ffacf2b8 data: ffacf398
+address: ffacf2bc data: ffacf384
+address: ffacf2c0 data: 1
+address: ffacf2c4 data: 2
+address: ffacf2c8 data: 3
+address: ffacf2cc data: 26546000
+address: ffacf2d0 data: ffacf2f0
+address: ffacf2d4 data: 0
+exit B
+exit A
+exit main
